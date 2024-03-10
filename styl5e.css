@@ -1,0 +1,71 @@
+body{
+ display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(58, 152, 155);
+
+}
+#myH1{
+font-size: 4rem;
+font-family: "Times New Roman", "Times";
+color: navy;
+align-items: center;
+}
+
+#container{
+display:flex;
+flex-direction: column;
+padding: 30px;
+align-items: center;
+border:5px solid;
+border-radius: 50px;
+background-color: rgb(67, 119, 214);}
+
+#display{
+font-size: 5rem;
+font-family: monospace;
+font-weight: bold;
+color:darkblue;
+text-shadow: 2px 2px 2px lightblue;
+margin-bottom: 25px;
+}
+
+#controls button{
+font-size: 1.5rem;
+font-weight: bold;
+padding: 10px 20px;
+margin: 5px;
+min-width: 125px;
+border:none;
+border-radius: 10px;
+cursor:pointer;
+color:aqua;
+}
+
+#startBtn{
+background-color: green;
+
+
+}
+#startBtn:hover{
+background-color: rgb(44, 131, 44);
+
+}
+#stopBtn{
+    background-color: rgb(148, 6, 18);
+    
+    
+    }
+    #stopBtn:hover{
+    background-color: rgb(172, 56, 61);
+    
+    }
+    #resetBtn{
+        background-color: rgb(4, 1, 170);
+        
+        
+        }
+        #resetBtn:hover{
+        background-color: rgb(47, 90, 184);
+        
+        }
